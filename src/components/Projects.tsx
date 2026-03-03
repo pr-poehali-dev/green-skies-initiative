@@ -4,35 +4,35 @@ import { ArrowUpRight } from "lucide-react"
 const projects = [
   {
     id: 1,
-    title: "Резиденция Светлая",
-    category: "Жилой дом",
-    location: "Москва, Россия",
-    year: "2024",
-    image: "/images/hously-1.png",
+    title: "Рыбоперерабатывающий завод №1",
+    category: "Монтаж оборудования",
+    location: "Сахалинская область, Россия",
+    year: "2019",
+    image: "https://cdn.poehali.dev/projects/ee8083b0-0e34-412d-8b5a-28d3ab21f9b1/files/eb03d038-fac9-4c2e-a3ea-e89fdbb40f63.jpg",
   },
   {
     id: 2,
-    title: "Павильон Стекло",
-    category: "Коммерческий объект",
-    location: "Санкт-Петербург, Россия",
-    year: "2023",
-    image: "/images/hously-2.png",
+    title: "Завод на БМРТ (Корея)",
+    category: "Монтаж завода",
+    location: "Республика Корея",
+    year: "2021",
+    image: "https://cdn.poehali.dev/projects/ee8083b0-0e34-412d-8b5a-28d3ab21f9b1/files/cf7634df-58f1-444f-a0f9-d6f72d24d9eb.jpg",
   },
   {
     id: 3,
-    title: "Дом у моря",
-    category: "Жилой дом",
-    location: "Сочи, Россия",
-    year: "2023",
-    image: "/images/hously-3.png",
+    title: "Линия Сурими",
+    category: "Монтаж производственной линии",
+    location: "Республика Корея / Россия",
+    year: "2022",
+    image: "https://cdn.poehali.dev/projects/ee8083b0-0e34-412d-8b5a-28d3ab21f9b1/files/a4ec0af7-c3f0-475d-a956-33e141ad420d.jpg",
   },
   {
     id: 4,
-    title: "Северный приют",
-    category: "Гостиничный комплекс",
-    location: "Казань, Россия",
-    year: "2024",
-    image: "/images/hously-4.png",
+    title: "Рыбопромышленные предприятия",
+    category: "Обслуживание и реконструкция",
+    location: "Сахалинская область, Россия",
+    year: "2023–н.в.",
+    image: "https://cdn.poehali.dev/projects/ee8083b0-0e34-412d-8b5a-28d3ab21f9b1/files/eb03d038-fac9-4c2e-a3ea-e89fdbb40f63.jpg",
   },
 ]
 
@@ -68,14 +68,14 @@ export function Projects() {
       <div className="container mx-auto px-6 md:px-12">
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
           <div>
-            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Избранные работы</p>
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши проекты</h2>
+            <p className="text-muted-foreground text-sm tracking-[0.3em] uppercase mb-6">Портфолио</p>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight">Наши объекты</h2>
           </div>
           <a
-            href="#"
+            href="#contact"
             className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors group"
           >
-            Смотреть все проекты
+            Обсудить ваш проект
             <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
           </a>
         </div>
